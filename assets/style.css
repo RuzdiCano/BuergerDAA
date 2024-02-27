@@ -1,0 +1,120 @@
+
+
+header {
+
+    background-color:bisque ;
+    padding: 10px;
+    overflow: auto;
+       
+    }
+    header img{
+    float: right;
+    width: 70px;
+    height: auto;
+    margin-left: 10px;
+    }
+    
+    h1 {
+        float:left;
+        margin:0;
+        color:#333;
+    }
+    .sitenav-list {
+     background:bisque ;
+     list-style-type: none;
+     padding: 5px;
+     text-align: center;
+    }
+    
+    .sitenav-list li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    .sitenav-list a {
+        text-decoration: none;
+        color:#333;
+    }
+
+    hr {
+    border-top: 3px solid bisque ;
+    width: 100%;
+    }
+
+
+    .produkte
+    {
+        display: flex;
+
+        justify-content: space-between; /* Platzierung der Elemente mit gleichem Abstand*/
+    }
+    
+    .produkte-seite
+    {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+
+    }
+
+    .produktblatt
+    {
+        width: calc(33.33% - 10px); /* Breite für jedes Produkt (1/3 der Breite) mit Abstand*/
+        margin-bottom: 20px;
+        padding: 10px; /* Innenabstand für jedes Produkt*/
+        border: 1px solid #ddd; /* Rahmen um jedes Produkt*/
+        box-sizing: border-box; /* Berücksichtigt den Rahmen bei der Berechnung der Breite*/
+    }
+
+    /* Stil für das Bild im Produkt*/
+    .produktblatt img{
+        max-width: 100%; /* Maximale Breite des Bildes innerhalb des Rahmens*/
+        height: auto; /*Automatische Höhe, um das Bild ncht zu verzehren*/
+    }
+    .produktblatt
+    {
+        width: calc(33.33% -10px); /* Breite für jedes Produkt (1/3 der Breite) mit Abstand*/
+        margin-bottom: 20px;
+        padding: 10px; /* Innenabstand für jedes Produkt*/
+        border: 1px solid #ddd; /* Rahmen um jedes Produkt*/
+        box-sizing: border-box; /* Berücksichtigt den Rahmen bei der Berechnung der Breite*/
+    }
+
+    /* Stil für das Bild im Produkt*/
+    
+    
+    .produktblatt img
+    {
+        max-width: 100%; /* Maximale Breite des Bildes innerhalb des Rahmens*/
+        height: auto; /*Automatische Höhe, um das Bild ncht zu verzehren*/
+    }
+
+
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        padding:10px 0;
+        text-align: center;
+    }
+
+    .content{
+        margin-bottom: 60px; /* Platz unterhalb des Inhalts, um den Footer nicht zu überlappen*/
+    }
+
+    aside{
+        background-color:#ddd;
+        color: #333;
+        margin-left: 10px;
+        padding:10px;
+    }
+
+
+    
+
+
+
